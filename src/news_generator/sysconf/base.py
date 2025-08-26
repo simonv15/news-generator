@@ -1,4 +1,3 @@
-# %%
 import os, yaml, collections
 from pathlib import Path
 
@@ -22,5 +21,3 @@ conf["api_key_dict"] = api_key_dict
 conf["news_source_list"] = news_source_list
 
 conf["data_folder_path"] = os.path.join(conf["_glb_prj_path"], "data")
-
-# %%
